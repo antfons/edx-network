@@ -9,7 +9,7 @@
 [Brief video on Youtube](https://www.youtube.com/watch?v=9-DY5qaY6Ck&t=25s "video")
 
 #### Description
-This project aims to create a social media like website where user are able to make new posts and navigate though posts all users, give likes on posts and also follow other users.
+This project aims to create a social media like website where user are able to make new posts and navigate through posts all users, give likes on posts and also follow other users.
 
 
 ## Table of content
