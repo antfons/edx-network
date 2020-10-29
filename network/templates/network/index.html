@@ -1,0 +1,42 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+
+    
+    <div id="profile-page" class="main-div">
+        <h1>Profile</h1>
+        <div id="user-page">
+        
+        </div>
+        <br/>
+        <div id="user-posts">
+
+        </div>
+    </div>
+    
+    <div id="all-posts" class="main-div">
+        <h1>All Posts</h1>
+        {% if user.is_authenticated %}
+        <div class="postDiv rounded col-9" >
+            <label for="post-message"><h3>New Post</h3></label>
+            <form id="post-form" class="form-group" >
+                <textarea id="post-message" class="form-control" rows="3"></textarea>
+                <br>
+                <button type="submit" class="btn btn-primary">Post</button>
+            </form>
+
+        </div>
+        {% endif %}
+        <br/>
+        <div id="posts">
+        </div>
+    </div>
+    {% if user.is_authenticated %}
+    <div id="following" class="main-div">
+        <h2>Posts of users you follows</h2>
+        <div id="following-posts">
+
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}
