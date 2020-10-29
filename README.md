@@ -79,7 +79,7 @@ A high-level Python Web framework.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/antfons/edx-books-search/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/antfons/edx-network/blob/main/LICENSE)
 
 
 ## Motivation
