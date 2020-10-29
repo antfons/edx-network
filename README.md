@@ -65,6 +65,7 @@ python manage.py
 - Users can edit their posts
 - Like/unlike a post
 
+### Open the application on the browser, create your user and start using it.
 http://localhost:8000/
 
 ## Built With
