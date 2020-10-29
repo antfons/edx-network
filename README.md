@@ -53,7 +53,6 @@ python manage.py migrate
 ```console
 python manage.py
 ```
-### Open the application on the browser, create your user and start using it.
 
 ### Features
 - Mkae new Posts
