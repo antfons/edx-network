@@ -55,7 +55,7 @@ python manage.py
 ```
 
 ### Features
-- Mkae new Posts
+- Make new Posts
 - See all Posts made by all users
 - See Profile page of an specific user
 - Able to follow/unfollow other users
